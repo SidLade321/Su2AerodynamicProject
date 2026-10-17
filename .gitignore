@@ -1,0 +1,17 @@
+*Zone.Identifier
+__pycache__/
+*.pyc
+restart_flow.dat
+solution_flow.dat
+*.szplt
+*.odt
+mesh_flatplate_turb_545x385.su2
+tutorials/
+*.vtu
+*.dat
+*.pvtu
+*.vtk
+log_*.txt
+naca0012-liftcurve/run.cfg
+history_extract.csv
+history_extract.csv
