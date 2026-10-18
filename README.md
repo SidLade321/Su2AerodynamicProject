@@ -96,3 +96,8 @@ Setup: WSL2 Ubuntu, SU2 v8.5.0 prebuilt binary (linux64-mpi), Gmsh 4.15.2 (Pytho
 Python env: python3 -m venv ~/cfd-env; pip install numpy scipy matplotlib pandas gmsh
 ## Cases
 - tutorials/inviscid_naca0012: M0.8, AOA 1.25, tutorial mesh (10216 cells): CL=0.3285 CD=0.0215
+
+## Author
+
+**Sai Sidhanth Lade** — BEng Acoustical Engineering, University of Southampton 
+[LinkedIn](https://www.linkedin.com/in/sai-sidhanth-lade-706869357/) · [GitHub](https://github.com/SidLade321)
