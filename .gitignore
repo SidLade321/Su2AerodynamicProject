@@ -14,4 +14,6 @@ tutorials/
 log_*.txt
 naca0012-liftcurve/run.cfg
 history_extract.csv
-history_extract.csv
+naca4412-euler/runs/
+naca4412-euler/mesh_naca4412_*.su2
+run_all.log
