@@ -1,0 +1,25 @@
+Mesh convergence, AoA = 5 deg
+  mesh  cells      CL       CD       Cm  iters  res_drop  res_final  CL_from_Cp  CL_vs_panel_%
+coarse   6144 1.12926  0.00052 -0.11997   1002   7.88595  -12.00085     1.12926       -0.26526
+medium  24576 1.13153 -0.00002 -0.11989   1327   7.43734  -12.00126     1.13153       -0.06479
+  fine  98304 1.13223  0.00009 -0.11995   2046   6.98810  -12.00236     1.13223       -0.00285
+
+Panel method + PG (800 panels): CL = 1.1323, Cm_c/4 = -0.1201
+CL: observed order 1.69, extrapolated 1.1325 (+0.025% vs panel), fine-mesh GCI 0.035%
+Cm: -0.11997, -0.11989, -0.11995 (spread 0.06%), fine vs panel +0.09%
+CD (exactly 0 in inviscid, shock-free flow), in drag counts: 5.2 -> -0.2 -> 0.9
+
+Lift curve, medium mesh
+     AoA  CL_SU2   Cm_SU2  res_drop  CL_panel_PG     Diff   Diff_%
+-4.00000 0.03415 -0.10607   7.40562      0.03463 -0.00048 -1.39713
+-2.00000 0.27899 -0.10891   7.37327      0.27958 -0.00059 -0.21141
+ 0.00000 0.52354 -0.11193   7.36865      0.52419 -0.00064 -0.12289
+ 2.00000 0.76749 -0.11508   7.38167      0.76816 -0.00067 -0.08746
+ 4.00000 1.01048 -0.11828   7.41704      1.01119 -0.00071 -0.07022
+ 5.00000 1.13153 -0.11989   7.43734      1.13226 -0.00073 -0.06479
+ 6.00000 1.25223 -0.12150   7.46259      1.25299 -0.00076 -0.06042
+ 8.00000 1.49246 -0.12467   7.51208      1.49326 -0.00080 -0.05370
+Lift-curve slope: SU2 6.967 /rad, panel+PG 6.969 /rad (-0.0%), thin aerofoil+PG 6.355 /rad
+Zero-lift angle: SU2 -4.30 deg, panel -4.30 deg, thin aerofoil -4.15 deg
+
+Saved cp_validation.png, liftcurve_naca4412.png, mesh_convergence.png
